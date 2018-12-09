@@ -1,12 +1,74 @@
 /* Style.css */
 
 body{
-
+    background-color: grey; 
+    background: url(headerImg.jpg) no-repeat;
+    background-size: cover;
+    height: 600px;
     
 }
+#wrapper {
+    padding: 4%;
+    padding-right: 100px;
+    padding-left: 300px;
+margin: 0%;
 
+}
+header {
+
+  padding: 40px;
+   
+}
+
+ul{
+ margin: 0px;
+ padding: 0px;
+ list-style: none;
+ color: whitesmoke;
+ 
+}
+
+ul li{
+  float: right;
+  width: 80px;
+  height: 40px;
+  background-color: black;
+  border-radius: 5px;
+  opacity: .8;
+  line-height: 40px;
+  text-align: center;
+  font-size: 15px;
+}
+ul li ul li {
+  font-size: 15px;
+  display: none;
+  border-radius: 0px;
+}
+
+ul li:hover ul li{
+  display: block;
+}
+
+ul li a{
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+
+ul li a:hover{
+  background-color: lightgrey;
+  color: black;
+}
+    
+main {
+
+}
+
+#about {
+
+}
 h1{
-    background-color: yellow;
+   
 
 
 }
@@ -15,8 +77,18 @@ h2{
 
 }
 
-p {
+h6 { 
+  padding: 0px;
+  margin: 4px;
+  
 
+}
+p {
+  
+
+}
+
+footer {
 
 }
 
