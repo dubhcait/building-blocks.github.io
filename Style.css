@@ -5,6 +5,7 @@ body{
     background: url(headerImg.jpg) no-repeat;
     background-size: cover;
     height: 600px;
+    font-family: Calibri;  
     
 }
 #wrapper {
