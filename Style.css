@@ -5,20 +5,22 @@ body{
     background: url(headerImg.jpg) no-repeat;
     background-size: cover;
     height: 600px;
-    font-family: Calibri;  
+    font-family: Calibri; 
+   color: white; 
     
 }
 #wrapper {
     padding: 4%;
-    padding-right: 100px;
+    padding-right: 50px;
     padding-left: 300px;
 margin: 0%;
 
 }
 header {
 
-  padding: 40px;
-   
+  padding-right: 30px;
+  z-index: 9999;
+  position: relative;
 }
 
 ul{
@@ -31,41 +33,53 @@ ul{
 
 ul li{
   float: right;
-  width: 80px;
-  height: 40px;
+  width: 60px;
+  height: 60px;
   background-color: black;
-  border-radius: 5px;
+  border-radius: 60px;
   opacity: .8;
-  line-height: 40px;
+  line-height: 60px;
   text-align: center;
   font-size: 15px;
 }
 ul li ul li {
   font-size: 15px;
   display: none;
-  border-radius: 0px;
+  border-radius: 60px;
 }
 
 ul li:hover ul li{
   display: block;
+  
+  
 }
 
 ul li a{
   text-decoration: none;
   color: white;
   display: block;
+  
 }
 
 ul li a:hover{
   background-color: lightgrey;
   color: black;
+  border-radius: 60px;
+
 }
     
 main {
-
+  background-color: black;
+  opacity: .4;
+  border-radius: 10px;
+ padding: 10px;
+ margin-right: 95px;
+ z-index: 999;
+ position: relative;
 }
 
 #about {
+  padding-right: 40px;
 
 }
 h1{
