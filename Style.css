@@ -1,5 +1,8 @@
 /* Style.css */
 
+
+
+
 body{
     background-color: grey; 
     background: url(headerImg.jpg) no-repeat;
@@ -103,7 +106,8 @@ p {
 
 }
 
-footer {
-
+footer img {
+padding-top:20px; 
+  height: 50px;
+padding-left: 10%;
 }
-
