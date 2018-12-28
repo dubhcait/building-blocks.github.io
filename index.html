@@ -1,62 +1,81 @@
 <!DOCTYPE html>
 <html>
-  <head>
-      <meta charset="UTF-8">
-      <meta name="description" content="#" >
-      <title> Kate's website </title>
-      <link rel="stylesheet" type = "text/css" href= "Style.css">
-  </head>
-  <div id= "wrapper">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="#">
+  <title> Kate's website </title>
+  <link rel="stylesheet" type="text/css" href="Style.css">
+</head>
+
+<body>
+  <div id="wrapper">
     <header class="grid">
-      <body>
-
-     
-
-       
-        <ul>
-          <li><a href = "#">Menu</a>
-            <ul>
-               <li> <a href = "#">About me</a> </li>
-               <li><a href = "#"> Projects</a> </li>
-                <li> <a href= "CV.pdf" target="_blank">CV</a></li>
-                <li><a href = "#footer">Contact</a> </li>
-            </ul> 
-          </li>
-        </ul>
-
-        <h1>
-          Kate O'Brien
-        </h1>
-        <div class="bg-image"></div>
-   </header>
+      <ul>
+        <li><a href="#">Menu</a>
+          <ul>
+            <li> <a href="#about">About</a> </li>
+            <li><a href="#projects"> Projects</a> </li>
+            <li> <a href="CV.pdf" target="_blank">CV</a></li>
+            <li><a href="#footer">Contact</a> </li>
+          </ul>
+        </li>
+      </ul>     
+    </header>
   
-<main>
+    <main>
+    <div id=about class="grid">
+      <p> So here are some tidbits about me, I'm on the road to becoming a software developer
+        from being a junior doctor.I'm based in Ireland currently.My programming skills are Front End centered for now, using Javascript, HTML and CSS.
+        I am bicycle obsessed, be it cycling them or fixing them. I grew up in the depths of the Irish countryside so I can claim to be the only gay in the village.
+      </p>
+    </div>
 
-  
-   
-   <div id=about class="grid">
-    <p> So here are some tidbits about me, I'm on the road to becoming a software developer 
-      from being a junior doctor. My programming skills are self taught so far, concentrating on Front-End.
-       I am self professed bicycle obsessed.  I've got both extrovert and introvert traits. 
-       I grew up in the depths of the Irish countryside so I can claim to be the only gay in the village.  
-    </p> </div>
-  
     <div id=projects class="grid">
       <h2>Projects</h2>
+
+      <ul class="card">
+        <li class="card">
+          <div class="card">
+            <a href="https://codepen.io/dubhcait/pen/dwRPaJ" target="_blank"> <img name="slide" width="auto" height="150px"></a>
+            <a href="https://codepen.io/dubhcait/pen/dwRPaJ" target="_blank"> <h3>Image carousel</h3> </a>
+            <p>Basic image carousel build using HTML, CSS and javascript. Link leads to project hosted on Codepen. </p>
+            
+          
+          
+        </li>
+        <li class="card">
+          <div class="card">
+            <a href="https://codepen.io/dubhcait/full/jXLxXd" target="_blank"><img src="Calc.png" alt="coding" width="auto" height="150px"></a>
+            <a href="https://codepen.io/dubhcait/full/jXLxXd" target="_blank"><h3>Calculator</h3></a>
+            <p>Simple calculator build using HTML, CSS and javascript. Link leads to project hosted on Codepen.</p>
+          </div>
+        </li>
+        <li class="card">
+          <div class="card">
+            <a href="https://editor.p5js.org/dubhcait/full/BJzk-3GWE" target="_blank"><img src="snake.png" alt="coding" width="auto" height="150px"></a>
+            <a href="https://editor.p5js.org/dubhcait/full/BJzk-3GWE" target="_blank"><h3>Snake Game</h3></a>
+            <p>Built using Javascript on P5.js.<br>Controls: <b>a</b>=left ,<b>s</b>=down, <b>w</b>=up and <b>d</b>=right.Click to begin.Code avalible <a href="https://editor.p5js.org/dubhcait/sketches/BJzk-3GWE" target="_blank">here</a> </p>
+          </div>
+        </li>
+
+
+      </ul>
     </div>
   </main>
-<footer class="grid">
-         <a href="https://github.com/dubhcait" target="_blank"><img src="githubbutton.png" alt="GitHub"></a> 
-        <a href="https://www.codewars.com/users/Dubhcait" target="_blank"><img src="codewarsbutton.png" alt="Codewars"></a> 
-         <a href="https://www.freecodecamp.org/dubhcait" target="_blank"><img src="freecodecampbutton.png" alt="Free Code Camp"></a> 
-         <a href= "https://twitter.com/kob_anne" target="_blank"><img src="twitter-button.png" alt="Twitter"></a>
-         <a href= "CV.pdf" target="_blank"><img src="CV-Button.png" alt="CV"></a> 
-</footer>
-  </body> </div>
+</div>
+<h1 class="vertical-text">Kate O'Brien</h1>
+
+
+
+
+<footer class="grid" id=footer>
+    <a  href="https://github.com/dubhcait/building-blocks.github.io" target="_blank"><img src="githubbutton.png" alt="GitHub"></a>
+    <a  href="https://www.codewars.com/users/Dubhcait" target="_blank"> <img src="Codewars.png" alt="Codewars"></a>
+    <a  href="https://www.freecodecamp.org/dubhcait" target="_blank"><img src="freeC.png" alt="Free Code Camp"></a>
+    <a  href="https://twitter.com/kob_anne" target="_blank"><img src="TwitterB.png" alt="Twitter"></a>
+    <a  href="CV.pdf" target="_blank"><img src="CV-Button.png" alt="CV"></a></div>   
+  </footer>
+  <script type="text/javascript" src="carousel.js"></script>
+</body>
 </html>
-
-<!-- Tell us something interesting about yourself that will support your application;
-Jekyll
-Not use a framework like Bootstrap or libraries like jQuery. 
-
--->
