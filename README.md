@@ -14,7 +14,7 @@ My one-page portfolio website for my Founders and Coders application.
 ## This page is live at :
 https://dubhcait.github.io/building-blocks.github.io/
 
-This was first even attempt at building a website. 
+This was my first even attempt at building a website. 
 
 ## Challenges:
 
